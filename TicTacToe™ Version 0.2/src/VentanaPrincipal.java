@@ -9,7 +9,6 @@ import java.awt.*;
  */
 public class VentanaPrincipal extends JFrame {
 
-    private VentanaPrincipal that;
     private int filas;
     private int columnas;
     private Boolean turno;
@@ -71,7 +70,6 @@ public class VentanaPrincipal extends JFrame {
         JPanel interfazLectura = new JPanel();
 
         // Personalizamos los componentes
-        that = this;
         turno = true;
         fuente = new Font("Dialog", Font.BOLD, 160);
 
@@ -98,11 +96,11 @@ public class VentanaPrincipal extends JFrame {
             jugador2.setBackground(Color.CYAN);
         }
 
-        contenedorBotones.setLayout(new GridLayout(that.getFilas(), that.getColumnas()));
+        contenedorBotones.setLayout(new GridLayout(getFilas(), getColumnas()));
 
         botones = new Boton[getFilas()][getColumnas()];
-        for (int i = 0; i < that.getFilas(); i++) {
-            for (int j = 0; j < that.getColumnas(); j++) {
+        for (int i = 0; i < getFilas(); i++) {
+            for (int j = 0; j < getColumnas(); j++) {
                 crearBotones(i, j, contenedorBotones);
             }
         }
@@ -175,14 +173,14 @@ public class VentanaPrincipal extends JFrame {
         }
         total_activados = 0;
         if (hayLinea) {
-            JOptionPane.showMessageDialog(that, "El jugador con " + simbolo + " ha ganado la partida");
+            JOptionPane.showMessageDialog(this, "El jugador con " + simbolo + " ha ganado la partida");
         } else {
-            JOptionPane.showMessageDialog(that, "Empate. Nadie ha ganado");
+            JOptionPane.showMessageDialog(this, "Empate. Nadie ha ganado");
         }
-        if (JOptionPane.showConfirmDialog(that, "¿Desea volver a jugar?") == 0) {
+        if (JOptionPane.showConfirmDialog(this, "¿Desea volver a jugar?") == 0) {
             resetGame();
         } else {
-            that.dispose();
+            this.dispose();
         }
     }
 
