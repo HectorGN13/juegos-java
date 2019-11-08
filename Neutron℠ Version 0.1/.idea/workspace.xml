@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02e21cfd-ef8c-4e3b-b0dc-e19b0f1482ff" name="Default Changelist" comment="" />
+    <list default="true" id="f7825dd5-7d4d-4eb4-b659-0351cffde8ab" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,14 +18,21 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1SVhsn48tgRJ9bpPjC9AGRoVDVc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1TKe3dpBRpN5Fi6qFi5nk3YgfAM" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +49,7 @@
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
-      <module name="TicTacToe™ Version 0.2" />
+      <module name="Neutron Version 0.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -55,31 +65,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02e21cfd-ef8c-4e3b-b0dc-e19b0f1482ff" name="Default Changelist" comment="" />
-      <created>1571654879667</created>
+      <changelist id="f7825dd5-7d4d-4eb4-b659-0351cffde8ab" name="Default Changelist" comment="" />
+      <created>1573213016386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571654879667</updated>
-      <workItem from="1571654883484" duration="1548000" />
-      <workItem from="1571656728577" duration="146000" />
-      <workItem from="1571691983812" duration="99000" />
+      <updated>1573213016386</updated>
+      <workItem from="1573213020407" duration="247000" />
+      <workItem from="1573213289937" duration="28000" />
+      <workItem from="1573214027932" duration="3325000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

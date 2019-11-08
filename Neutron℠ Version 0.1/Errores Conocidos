@@ -1,0 +1,11 @@
+1º Bug:
+
+- Cuando seleccionas una ficha y luego no la quieres mover y la vuelves a dejar en su lugar el jugador pierde el turno, lo que impide a los jugadores la posibilidad de fallar.
+
+2º Bug:
+
+- Puede darse la posibilidad de que las fichas salten a otras fichas.
+
+3º Bug:
+
+- Cuando queremos empezar una nueva partida el estado del juego continual igual.
